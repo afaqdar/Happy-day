@@ -11,11 +11,6 @@
     --pink-transparent:rgba(255, 125, 210,.6);
     
 }
-body{
-    
-
-
-}
 .top-left-logo{
     background-color: var(--pink-transparent);
     width: 100%;
@@ -272,3 +267,90 @@ body{
     
     
 }
+.gift-collection{
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    height: 120px;
+    
+    justify-content: center;
+}
+.gift-collection h1{
+    font-size: 50px;
+    color: black;
+    border-color: var(--purple-lite);
+    font-family: 'Barriecito', cursive;
+
+    
+}
+.container{
+    margin: 40px 25px
+    
+    
+}
+.container h1{
+    font-family: 'Barriecito', cursive;
+    margin-left: 12px;
+    width: 90px;
+    color: var(--purple-lite);
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 15%;
+}
+.container h1.perfume{
+    font-family: 'Barriecito', cursive;
+    margin-left: 12px;
+    width: 120px;
+    color: var(--purple-lite);
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 15%;
+}
+.container h1.fans{
+    font-family: 'Barriecito', cursive;
+    margin-left: 12px;
+    width: 59px;
+    color: var(--purple-lite);
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 15%;
+}
+.container h1.watches{
+    font-family: 'Barriecito', cursive;
+    margin-left: 12px;
+    width: 115px;
+    color: var(--purple-lite);
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 15%;
+}
+
+.collection{
+    display: flex;
+    width: 100%;
+}
+.gift-item{
+    width: 25%;
+    margin: 12px;
+}
+.gift-item img{
+    width: 100%;
+    
+}
+.gift-item a{
+    color:var(--orange);
+    text-decoration: none;
+    
+
+}
+.gift-item h2 {
+    margin: 4px 0px;
+}
+.gift-item h3{
+    margin: 12x 0px;
+}
+.gift-item h5{
+    color: grey;
+    margin: 2px;
+}
+
